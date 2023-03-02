@@ -31,10 +31,6 @@ function result(operator) {
         let b = Number(prompt("Meblegi daxil edin"));
         alert(withdraw(b));
         break;
-      case "0":
-        alert("Kartinizi goturun");
-        console.log("hey");
-        break;
       default:
         alert("Duzgun operator daxil edin");
         break;
